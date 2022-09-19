@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="125dp"
-    android:background="@drawable/adapter1">
+    android:background="@drawable/finalcurve">
 
     <TextView
         android:id="@+id/txtItemName"
@@ -63,7 +63,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="9dp"
         android:layout_marginRight="9dp"
-        android:background="@color/black"
+        android:background="#05f8dc"
         android:src="@drawable/ic_action_delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -72,17 +72,18 @@
         android:id="@+id/txtItemTotalCost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:background="@drawable/adapter2"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/adap3"
         android:padding="8dp"
         android:paddingLeft="12dp"
         android:text="@string/totalCost"
+        android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
-        android:visibility="invisible"
 
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/txtItemPrice" />
 
@@ -93,7 +94,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/totalCostTitle"
+        android:text="Total Cost"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:visibility="invisible"
